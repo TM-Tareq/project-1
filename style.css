@@ -9,9 +9,34 @@ html, body {
     height: 100%;
     width: 100%;
 }
-
+#main {
+    height: 100%;
+    width: 100%;
+}
 #page-1{
     height: 100%;
     width: 100%;
-    background-color: lightblue;
+    background-color: #EFEAE3;
+    position: relative;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+}
+#nav-part-2{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+#nav-part-2 h4{
+    padding: 10px 20px;
+    border: 1px solid rgb(84, 80, 80);
+    border-radius: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.486);
+    font-size: 18px;
 }
