@@ -38,5 +38,32 @@ nav {
     border-radius: 50px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.486);
+    transition: all ease 0.3s;
+    position: relative;
     font-size: 18px;
+    overflow: hidden;
+}
+#nav-part-2 h4::after {
+     content: "";
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     background-color: black;
+     left: 0;
+     bottom: -100%;
+     border-radius: 50%;
+     transition: all ease 0.3s;
+}
+#nav-part-2 h4:hover::after{
+    bottom: 0;
+    border-radius: 0;
+}
+#nav-part-2 h4 a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+#nav-part-2 h4:hover a{
+    color: white;
 }
